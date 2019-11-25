@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1135901958213286}
+  m_IsPrefabParent: 1
+--- !u!1 &1135901958213286
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 224877368392795462}
+  - component: {fileID: 114471522723933766}
+  m_Layer: 5
+  m_Name: PlayerInventory
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &114471522723933766
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1135901958213286}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef3b7b4142adfd144b69f6328dd68ccd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stage1Weapons:
+  - {fileID: 1078217475530158, guid: 9dc7b5a5c74c3534fa6c92ea95b18d3f, type: 2}
+  - {fileID: 1302426683418030, guid: b15b9a3b0b205d34aa2e696ae5931286, type: 2}
+  - {fileID: 1721487478916512, guid: 393ba05352a2f204daae4319b00c856a, type: 2}
+  - {fileID: 1547903716830578, guid: aedaa3307a9408d4eb9098d9548f3453, type: 2}
+  - {fileID: 1318685297350610, guid: a1c834ebeccbf1c44beeee008b1339eb, type: 2}
+  - {fileID: 1968913116354198, guid: 858a6b53c4ee7da42be6dad40c98dd54, type: 2}
+  - {fileID: 1011751199472972, guid: 1b288041e39a2aa4dbd3c451a768bff2, type: 2}
+  stage2Weapons:
+  - {fileID: 1093155720562006, guid: fe7c26fae6495914aa6098ed97388340, type: 2}
+  - {fileID: 1226547389191572, guid: caffa0d13fad56d468b97c19fb721b85, type: 2}
+  - {fileID: 1299042606041686, guid: 5328e48a840c9ff4b86fc67e8ccdcaa3, type: 2}
+  - {fileID: 1064664280430076, guid: 192304e9f273f944a87a317bccf8a89a, type: 2}
+  - {fileID: 1043203083034938, guid: c26b1cc81a2d3324a8bf5c2b6d05d45f, type: 2}
+  - {fileID: 1087820178280114, guid: 0ed33fc2127924644ab7756b061f4c29, type: 2}
+  inventory: 
+--- !u!224 &224877368392795462
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1135901958213286}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.5395833, y: 0.5395833, z: 0.5395833}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 428.96875, y: 293.0819}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}

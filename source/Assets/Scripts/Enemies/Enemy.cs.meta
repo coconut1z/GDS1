@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 1fde310254b68a94ca618323ee893b2d
+timeCreated: 1523638748
+licenseType: Free
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - sr: {instanceID: 0}
+  - weaponManager: {instanceID: 0}
+  - sparks: {fileID: 1822770573926678, guid: 1711207de758fbb449e0a59b4e871bba, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

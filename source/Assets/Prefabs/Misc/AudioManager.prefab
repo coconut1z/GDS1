@@ -1,0 +1,529 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1113244084551352}
+  m_IsPrefabParent: 1
+--- !u!1 &1113244084551352
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4575863771338600}
+  - component: {fileID: 114004096540265958}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4575863771338600
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1113244084551352}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114004096540265958
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1113244084551352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b760c0c103a2e949a5a9911d6961348, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sparesAvailable: 20
+  volumeMult: 1
+  spareSources: []
+  sounds:
+  - name: Respawn
+    clip: {fileID: 8300000, guid: 357fcf3f0761d574687704753857752f, type: 3}
+    volume: 0.7
+    pitch: 1
+    randomVolume: 0
+    randomPitch: 0
+    looping: 0
+    source: {fileID: 0}
+  - name: BulletSpam1
+    clip: {fileID: 8300000, guid: e820664a7bbc00b4b869f06671f53eb4, type: 3}
+    volume: 0.7
+    pitch: 1
+    randomVolume: 0.2
+    randomPitch: 0.5
+    looping: 0
+    source: {fileID: 0}
+  - name: HeavyMetalLock1
+    clip: {fileID: 8300000, guid: a0e29c0ff3d37c949b5004489e244c53, type: 3}
+    volume: 0.7
+    pitch: 1
+    randomVolume: 0
+    randomPitch: 0.2
+    looping: 0
+    source: {fileID: 0}
+  - name: ExplosionLarge1
+    clip: {fileID: 8300000, guid: ace325631d7712f409ad77606cc70155, type: 3}
+    volume: 0.85
+    pitch: 1
+    randomVolume: 0
+    randomPitch: 0
+    looping: 0
+    source: {fileID: 0}
+  - name: BulletSpam2
+    clip: {fileID: 8300000, guid: cdf91a007b9f2c3409fc9bf92f90cb25, type: 3}
+    volume: 0.85
+    pitch: 1
+    randomVolume: 0
+    randomPitch: 0
+    looping: 0
+    source: {fileID: 0}
+  - name: PlasmaShot1
+    clip: {fileID: 8300000, guid: b6be78906f2431447b34d7ddd5ad4b80, type: 3}
+    volume: 0.15
+    pitch: 1
+    randomVolume: 0
+    randomPitch: 0
+    looping: 0
+    source: {fileID: 0}
+  - name: SniperShot1
+    clip: {fileID: 8300000, guid: 8ed2874dc44d58749b79e1e2a8e2bc3a, type: 3}
+    volume: 0.85
+    pitch: 1
+    randomVolume: 0
+    randomPitch: 0.25
+    looping: 0
+    source: {fileID: 0}
+  - name: Flamethrower1
+    clip: {fileID: 8300000, guid: e756c61dcf9723d478ee89884d68e302, type: 3}
+    volume: 0.6
+    pitch: 1
+    randomVolume: 0
+    randomPitch: 0
+    looping: 0
+    source: {fileID: 0}
+  - name: CrossbowSound1
+    clip: {fileID: 8300000, guid: e96bc9b2e5f03e64cabfd015ae5af495, type: 3}
+    volume: 0.08
+    pitch: 1
+    randomVolume: 0
+    randomPitch: 0
+    looping: 0
+    source: {fileID: 0}
+  - name: Metal1
+    clip: {fileID: 8300000, guid: 9cd2df6efd2eedc47bcc28aaa9e131a8, type: 3}
+    volume: 0.11
+    pitch: 1
+    randomVolume: 0
+    randomPitch: 0
+    looping: 0
+    source: {fileID: 0}
+  - name: Parry1
+    clip: {fileID: 8300000, guid: 80a495852f82d3a479a8dcf4e97223d5, type: 3}
+    volume: 0.7
+    pitch: 1
+    randomVolume: 0.2
+    randomPitch: 0.3
+    looping: 0
+    source: {fileID: 0}
+  - name: Cannon1
+    clip: {fileID: 8300000, guid: 2fbf5fc0b8f950241ac05150b8ec389e, type: 3}
+    volume: 0.8
+    pitch: 1
+    randomVolume: 0.1
+    randomPitch: 0.3
+    looping: 0
+    source: {fileID: 0}
+  - name: EnergyLoop1
+    clip: {fileID: 8300000, guid: 8adfc23ba583c7944b7e07af7e1cb517, type: 3}
+    volume: 0.4
+    pitch: 1
+    randomVolume: 0.1
+    randomPitch: 0.3
+    looping: 1
+    source: {fileID: 0}
+  - name: Flak1
+    clip: {fileID: 8300000, guid: 30efe9d2481db7c4094b21f5fa076861, type: 3}
+    volume: 0.19
+    pitch: 1
+    randomVolume: 0.1
+    randomPitch: 0.2
+    looping: 0
+    source: {fileID: 0}
+  - name: MissileFire1
+    clip: {fileID: 8300000, guid: 5837fcecdcda19844ad8ea23f5409e8c, type: 3}
+    volume: 0.5
+    pitch: 1
+    randomVolume: 0.1
+    randomPitch: 0.2
+    looping: 0
+    source: {fileID: 0}
+  - name: ExplosionSmall1
+    clip: {fileID: 8300000, guid: 2850665036031b141b5452f375d094f6, type: 3}
+    volume: 1
+    pitch: 1
+    randomVolume: 0
+    randomPitch: 0.2
+    looping: 0
+    source: {fileID: 0}
+  - name: ElectronicAwake1
+    clip: {fileID: 8300000, guid: 2850665036031b141b5452f375d094f6, type: 3}
+    volume: 1
+    pitch: 1
+    randomVolume: 0
+    randomPitch: 0
+    looping: 0
+    source: {fileID: 0}
+  - name: Thunder1
+    clip: {fileID: 8300000, guid: 02406395e03bcd846877ee99bcefe845, type: 3}
+    volume: 0.51
+    pitch: 1
+    randomVolume: 0
+    randomPitch: 0.2
+    looping: 0
+    source: {fileID: 0}
+  - name: ElectronicFire1
+    clip: {fileID: 8300000, guid: cd87a2af998cf654a88789982c379194, type: 3}
+    volume: 0.6
+    pitch: 1
+    randomVolume: 0.1
+    randomPitch: 0.2
+    looping: 0
+    source: {fileID: 0}
+  - name: Zap1
+    clip: {fileID: 8300000, guid: ad3f00ad75310f94d9d3113422f828a2, type: 3}
+    volume: 0.075
+    pitch: 1
+    randomVolume: 0.4
+    randomPitch: 0.45
+    looping: 0
+    source: {fileID: 0}
+  - name: Ice1
+    clip: {fileID: 8300000, guid: c456001222abf4a4ab715d396795daf7, type: 3}
+    volume: 0.33
+    pitch: 1
+    randomVolume: 0.2
+    randomPitch: 0.3
+    looping: 0
+    source: {fileID: 0}
+  - name: Zap2
+    clip: {fileID: 8300000, guid: 38b78b8c168d6b044aaf237a219e48be, type: 3}
+    volume: 0.6
+    pitch: 1
+    randomVolume: 0.2
+    randomPitch: 0.5
+    looping: 0
+    source: {fileID: 0}
+  - name: LockOn1
+    clip: {fileID: 8300000, guid: 066199a19788cb341ab292f067a28d9b, type: 3}
+    volume: 0.2
+    pitch: 1
+    randomVolume: 0
+    randomPitch: 0
+    looping: 0
+    source: {fileID: 0}
+  - name: ExplosionLarge2
+    clip: {fileID: 8300000, guid: 1abe78424f8317c42bd1fed2474f1df0, type: 3}
+    volume: 0.2
+    pitch: 1
+    randomVolume: 0.25
+    randomPitch: 0.25
+    looping: 0
+    source: {fileID: 0}
+  - name: SpamBullet3
+    clip: {fileID: 8300000, guid: 35afa0a2eb4b40643b7c92576dc528c9, type: 3}
+    volume: 0.7
+    pitch: 1
+    randomVolume: 0.25
+    randomPitch: 0.25
+    looping: 0
+    source: {fileID: 0}
+  - name: SniperZap1
+    clip: {fileID: 8300000, guid: 49bde936a9a2a0446b68fa4e6b47ac4c, type: 3}
+    volume: 0.9
+    pitch: 1
+    randomVolume: 0.1
+    randomPitch: 0.2
+    looping: 0
+    source: {fileID: 0}
+  - name: LI1
+    clip: {fileID: 8300000, guid: 28ac3199d43c8ea4dacb310c823dcfad, type: 3}
+    volume: 1
+    pitch: 1
+    randomVolume: 0.4
+    randomPitch: 0.3
+    looping: 0
+    source: {fileID: 0}
+  - name: LI2
+    clip: {fileID: 8300000, guid: e867e7e0b7bd64c4aad14c42a87af5a8, type: 3}
+    volume: 0.5
+    pitch: 1
+    randomVolume: 0.4
+    randomPitch: 0.3
+    looping: 0
+    source: {fileID: 0}
+  - name: LI3
+    clip: {fileID: 8300000, guid: 0ba95ddbf92172341b99ef259aca538e, type: 3}
+    volume: 0.6
+    pitch: 1
+    randomVolume: 0.4
+    randomPitch: 0.3
+    looping: 0
+    source: {fileID: 0}
+  - name: LI4
+    clip: {fileID: 8300000, guid: c82aa9669f72a0242af446ddfa698515, type: 3}
+    volume: 0.6
+    pitch: 1
+    randomVolume: 0.4
+    randomPitch: 0.3
+    looping: 0
+    source: {fileID: 0}
+  - name: LI5
+    clip: {fileID: 8300000, guid: 09d1eaea03896e94ca609742d8df324c, type: 3}
+    volume: 0.7
+    pitch: 1
+    randomVolume: 0.4
+    randomPitch: 0.3
+    looping: 0
+    source: {fileID: 0}
+  - name: LI6
+    clip: {fileID: 8300000, guid: 6792ab8dcf989d84ca55699366980d44, type: 3}
+    volume: 0.7
+    pitch: 1
+    randomVolume: 0.4
+    randomPitch: 0.3
+    looping: 0
+    source: {fileID: 0}
+  - name: LI7
+    clip: {fileID: 8300000, guid: 58f0135678d32f84aa63f71a87b6e5ad, type: 3}
+    volume: 1
+    pitch: 1
+    randomVolume: 0.4
+    randomPitch: 0.3
+    looping: 0
+    source: {fileID: 0}
+  - name: LI8
+    clip: {fileID: 8300000, guid: 60810241c5cb604458a867a66bf0b183, type: 3}
+    volume: 1
+    pitch: 1
+    randomVolume: 0.4
+    randomPitch: 0.3
+    looping: 0
+    source: {fileID: 0}
+  - name: MetalDebris1
+    clip: {fileID: 8300000, guid: 2596a8f2a2501ed4bbaa00fa031e20d9, type: 3}
+    volume: 0.7
+    pitch: 1
+    randomVolume: 0.4
+    randomPitch: 0.3
+    looping: 0
+    source: {fileID: 0}
+  - name: MetalLock1
+    clip: {fileID: 8300000, guid: a0e29c0ff3d37c949b5004489e244c53, type: 3}
+    volume: 1
+    pitch: 1
+    randomVolume: 0
+    randomPitch: 0.1
+    looping: 0
+    source: {fileID: 0}
+  - name: ExplosionHuge1
+    clip: {fileID: 8300000, guid: 040a73b296ab51c46bc21b9c0fee8fc7, type: 3}
+    volume: 1
+    pitch: 1
+    randomVolume: 0
+    randomPitch: 0.1
+    looping: 0
+    source: {fileID: 0}
+  - name: Minigun
+    clip: {fileID: 8300000, guid: 3b66acb2ca4264638b910e745b604c19, type: 3}
+    volume: 0.15
+    pitch: 1
+    randomVolume: 0
+    randomPitch: 0.1
+    looping: 0
+    source: {fileID: 0}
+  - name: Shotgun
+    clip: {fileID: 8300000, guid: c638f5ee187234b2fb10cef0816262c8, type: 3}
+    volume: 0.1
+    pitch: 1
+    randomVolume: 0
+    randomPitch: 0.1
+    looping: 0
+    source: {fileID: 0}
+  - name: Sniper
+    clip: {fileID: 8300000, guid: b6c151b47c49c44e6905ddb58f816383, type: 3}
+    volume: 0.15
+    pitch: 1
+    randomVolume: 0
+    randomPitch: 0.1
+    looping: 0
+    source: {fileID: 0}
+  - name: BasicGun
+    clip: {fileID: 8300000, guid: b6cdde3e95877416dabaa38153f046e7, type: 3}
+    volume: 0.1
+    pitch: 1.5
+    randomVolume: 0
+    randomPitch: 0.1
+    looping: 0
+    source: {fileID: 0}
+  - name: Cannon
+    clip: {fileID: 8300000, guid: 46ff0e9c7f7384d9e8451cd879494b45, type: 3}
+    volume: 0.12
+    pitch: 0.91
+    randomVolume: 0
+    randomPitch: 0.1
+    looping: 0
+    source: {fileID: 0}
+  - name: DarkWeapon
+    clip: {fileID: 8300000, guid: dedb03a7e17bf434c8ae29d835d21c9b, type: 3}
+    volume: 1
+    pitch: 0.91
+    randomVolume: 0
+    randomPitch: 0.1
+    looping: 1
+    source: {fileID: 0}
+  - name: MissileLauncher
+    clip: {fileID: 8300000, guid: fefedf295245b460e8e31b6fa368ea7a, type: 3}
+    volume: 0.2
+    pitch: 0.91
+    randomVolume: 0
+    randomPitch: 0.1
+    looping: 0
+    source: {fileID: 0}
+  - name: AbilityReward
+    clip: {fileID: 8300000, guid: 6cb3a8b16063f4406ab42aa5df74d0c1, type: 3}
+    volume: 0.41
+    pitch: 1.01
+    randomVolume: 0
+    randomPitch: 0.1
+    looping: 0
+    source: {fileID: 0}
+  - name: Ice
+    clip: {fileID: 8300000, guid: b6cdde3e95877416dabaa38153f046e7, type: 3}
+    volume: 0.15
+    pitch: 1.5
+    randomVolume: 0
+    randomPitch: 0.1
+    looping: 0
+    source: {fileID: 0}
+  - name: Redox
+    clip: {fileID: 8300000, guid: 3b66acb2ca4264638b910e745b604c19, type: 3}
+    volume: 0.12
+    pitch: 1.5
+    randomVolume: 0
+    randomPitch: 0.1
+    looping: 0
+    source: {fileID: 0}
+  - name: Megaminigun
+    clip: {fileID: 8300000, guid: 3b66acb2ca4264638b910e745b604c19, type: 3}
+    volume: 0.05
+    pitch: 1.5
+    randomVolume: 0
+    randomPitch: 0.1
+    looping: 0
+    source: {fileID: 0}
+  - name: Plasmacoil
+    clip: {fileID: 8300000, guid: 0552eb6194fa340e4a502a1fe5e0abdb, type: 3}
+    volume: 0.15
+    pitch: 1.5
+    randomVolume: 0
+    randomPitch: 0.1
+    looping: 0
+    source: {fileID: 0}
+  - name: Laserbeam
+    clip: {fileID: 8300000, guid: 419db1f9ec53b4841af70b11248400aa, type: 3}
+    volume: 0.15
+    pitch: 1.5
+    randomVolume: 0
+    randomPitch: 0.1
+    looping: 1
+    source: {fileID: 0}
+  - name: BossBeamCharge
+    clip: {fileID: 8300000, guid: 1cf12b13715a70944bb3781d40f6d037, type: 3}
+    volume: 0.7
+    pitch: 1
+    randomVolume: 0
+    randomPitch: 0
+    looping: 0
+    source: {fileID: 0}
+  - name: BossBeamLoop
+    clip: {fileID: 8300000, guid: 9419e692c1f1e934b9fe57701f776629, type: 3}
+    volume: 0.7
+    pitch: 1
+    randomVolume: 0
+    randomPitch: 0
+    looping: 1
+    source: {fileID: 0}
+  - name: BossFastCharge
+    clip: {fileID: 8300000, guid: 1cf12b13715a70944bb3781d40f6d037, type: 3}
+    volume: 0.7
+    pitch: 1.5
+    randomVolume: 0
+    randomPitch: 0
+    looping: 1
+    source: {fileID: 0}
+  - name: BigBass1
+    clip: {fileID: 8300000, guid: 0a8081479c0f3ad4783b1c92935db97f, type: 3}
+    volume: 1
+    pitch: 1
+    randomVolume: 0
+    randomPitch: 0
+    looping: 0
+    source: {fileID: 0}
+  - name: BigBass2
+    clip: {fileID: 8300000, guid: f5ad53d85710b8c418b56cd9a3edb01e, type: 3}
+    volume: 0.7
+    pitch: 1
+    randomVolume: 0
+    randomPitch: 0
+    looping: 0
+    source: {fileID: 0}
+  - name: B6Death1
+    clip: {fileID: 8300000, guid: 88090da485eef354297e98108c668707, type: 3}
+    volume: 1
+    pitch: 1
+    randomVolume: 0
+    randomPitch: 0
+    looping: 0
+    source: {fileID: 0}
+  - name: B6Death2
+    clip: {fileID: 8300000, guid: 548cc176b37d9fc449f725c0c905614e, type: 3}
+    volume: 0.5
+    pitch: 1
+    randomVolume: 0
+    randomPitch: 0
+    looping: 0
+    source: {fileID: 0}
+  - name: B6Death3
+    clip: {fileID: 8300000, guid: 05604e25a825ae445a52300d60bf5c3b, type: 3}
+    volume: 0.8
+    pitch: 1
+    randomVolume: 0
+    randomPitch: 0
+    looping: 0
+    source: {fileID: 0}
+  - name: BFOCharge
+    clip: {fileID: 8300000, guid: 972c350ad4aeb3e439fde7ba7dd26c74, type: 3}
+    volume: 0.8
+    pitch: 1
+    randomVolume: 0
+    randomPitch: 0
+    looping: 0
+    source: {fileID: 0}
